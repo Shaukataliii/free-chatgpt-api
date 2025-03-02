@@ -39,6 +39,7 @@ class ChatGPTAPI:
 
                 counter += 1
                 logging.info(f"{counter}: Response received in {time.time() - start_time:.2f}s")
+                print(f"{counter}: Response received in {time.time() - start_time:.2f}s")
 
             except StaleElementReferenceException:
                 logging.warning("Encountered StaleElementReferenceException. Retrying...")
