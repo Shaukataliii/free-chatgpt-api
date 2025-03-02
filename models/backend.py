@@ -22,7 +22,7 @@ class ChatGPTAPI:
 
     def chat(self):
         """Chat with ChatGPT using a loop."""
-        logging.WARNING("Press 'q' to quit.")
+        logging.warning("Press 'q' to quit.")
 
         counter = 0
         while True:
